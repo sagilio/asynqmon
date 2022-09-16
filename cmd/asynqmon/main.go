@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hibiken/asynq"
-	"github.com/hibiken/asynq/x/metrics"
-	"github.com/hibiken/asynqmon"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/rs/cors"
+	"github.com/sagilio/asynq"
+	"github.com/sagilio/asynq/x/metrics"
+	"github.com/sagilio/asynqmon"
 )
 
 // Config holds configurations for the program provided via the command line.
